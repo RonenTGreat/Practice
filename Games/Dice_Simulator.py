@@ -10,7 +10,7 @@ while rolling:
     print("Press Enter to roll or q to Quit.")
     start = input(">>")
 
-    # Keeps rolling until user enters a q to quit
+    # Keeps rolling until user enters a q to quit.
     if start.lower() != "q":
         print("You rolled a", dice)
     else:
