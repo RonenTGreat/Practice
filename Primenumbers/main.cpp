@@ -6,7 +6,7 @@ int main() {
     int num; // declares a variable that will hold the number for testing
 
     // Outputs a message to the user and instructs the user on what to do.
-    cout << "Enter a number to check whether it's a prime number." << endl;
+    cout << "Enter a number to check whether it's a prime number: ";
     // Makes the user enter an integer.
     cin >> num;
 
