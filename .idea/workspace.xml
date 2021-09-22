@@ -13,6 +13,7 @@
   <component name="ChangeListManager">
     <list default="true" id="65b4268e-5ca0-4f51-a532-835343233447" name="Default Changelist" comment="add comments from line 32 downward">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Games/Guessing_Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Games/Guessing_Game.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +47,7 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Electricity-AssignmentII-" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -54,14 +55,14 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.decision_Phyllis">
-    <configuration name="GPA_determine" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GPA_determine" TARGET_NAME="GPA_determine" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GPA_determine" RUN_TARGET_NAME="GPA_determine">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GPA_determine" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GPA_determine" TARGET_NAME="GPA_determine" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GPA_determine" RUN_TARGET_NAME="GPA_determine">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="Guessing_Game" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -128,9 +129,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="CMake Application.GPA_determine" />
-      <item itemvalue="Python.decision_Phyllis" />
       <item itemvalue="Python.Guessing_Game" />
+      <item itemvalue="Python.decision_Phyllis" />
       <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
