@@ -6,6 +6,7 @@ import java.util.Scanner;
 
 public class Main {
 
+
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -17,6 +18,7 @@ public class Main {
             int randomTake = random.nextInt(choice.length);
             String computer = (choice[randomTake]);
             System.out.println("Rock, Paper or Scissor?");
+            System.out.println("Enter 'q' to quit.");
             System.out.print(">> ");
             String player = input.next();
             if(player.toLowerCase().strip().equals(computer))
@@ -29,6 +31,15 @@ public class Main {
                 else{
                     System.out.println("You win! " + player + " destroys " + computer + ".");
                     playerScore += 1 ;
+                }
+            }
+            else if(player.equalsIgnoreCase("paper")){
+                if(computer.equals("scissor")){
+                    System.out.println("You lose! " + computer + " cuts " + player + ".");
+                    computerScore += 1;
+                }
+                else{
+                    System.out.println("You win! " + player + " covers " + computer + ".");
                 }
             }
         }
