@@ -6,15 +6,13 @@ import java.util.Scanner;
 
 public class Main {
 
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-
+        int computerScore = 0;
+        int playerScore = 0;
+        java.util.Random random = new java.util.Random();
         while(true){
             String[] choice = {"rock", "paper", "scissor"};
-            int computerScore = 0;
-            int playerScore = 0;
-            java.util.Random random = new java.util.Random();
             int randomTake = random.nextInt(choice.length);
             String computer = (choice[randomTake]);
             System.out.println("Rock, Paper or Scissor?");
