@@ -40,8 +40,24 @@ public class Main {
                 }
                 else{
                     System.out.println("You win! " + player + " covers " + computer + ".");
+                    playerScore += 1;
                 }
             }
+            else if(player.equalsIgnoreCase("scissor")){
+                if(computer.equals("rock")){
+                    System.out.println("You lose! " + computer + " destroys " + player + ".");
+                    computerScore += 1;
+                }
+                else{
+                    System.out.println("You win! " + player + " cuts " + computer + ".");
+                    playerScore += 1;
+                }
+
+            }
+            else if(player.equalsIgnoreCase("q"))
+                break;
+            System.out.println("Computer Score: " + computerScore);
+            System.out.println("Player Score: " + playerScore);
         }
 
     }
